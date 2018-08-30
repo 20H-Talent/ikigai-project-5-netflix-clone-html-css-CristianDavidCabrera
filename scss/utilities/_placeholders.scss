@@ -1,0 +1,14 @@
+////Style buttons and grids
+%style-box {
+    padding: 15px 10px;
+    border: none;
+    border-radius: 4px;
+    resize: none; /* Text area only */
+}
+
+//Layout
+%layout {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}

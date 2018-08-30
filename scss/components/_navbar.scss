@@ -1,0 +1,22 @@
+//Nav Items
+
+.nav {
+    @include flexy($dir: row);
+    ul {
+        padding:0;
+        margin-top:0;
+        text-decoration: none;
+        @include flexy($dir: row);
+    }
+    .nav__item {
+        @include flexy($just: center);
+        margin: 5px 0 5px;
+        border: 2px solid red;
+    }
+    a {
+        @extend %style-box;
+        color: $white;
+        text-decoration: none;
+        width: 100%;
+    }
+}

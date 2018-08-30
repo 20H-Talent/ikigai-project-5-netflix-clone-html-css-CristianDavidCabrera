@@ -1,10 +1,11 @@
 // ======================================
-//  Reset
+//  Images
 // ======================================
 
-*,
-html {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+//Center logo
+
+.img {
+  &--logo {
+    margin: 1.2em 3.4em;
+  }
 }

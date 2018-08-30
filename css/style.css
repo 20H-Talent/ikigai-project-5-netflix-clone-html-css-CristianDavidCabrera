@@ -1,3 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url(normalize.css);
+.nav a {
+  padding: 15px 10px;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+  /* Text area only */
+}
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img--logo {
+  margin: 1.2em 3.4em;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+.nav ul {
+  padding: 0;
+  margin-top: 0;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+.nav .nav__item {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0 5px;
+  border: 2px solid red;
+}
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+}
+
+header {
+  border: 2px solid red;
+}
+
+html.debug {
+  background: transparent url(/ikigai-project-5-netflix-clone-html-css-CristianDavidCabrera/mockups/00-home.jpg) no-repeat top left;
+  background-size: 100%;
+}
+html.debug body {
+  opacity: 0.7;
+}
 
 /*# sourceMappingURL=style.css.map */
