@@ -1,22 +1,19 @@
 //Nav Items
 
 .nav {
-    @include flexy($dir: row);
-    ul {
-        padding:0;
-        margin-top:0;
-        text-decoration: none;
-        @include flexy($dir: row);
-    }
-    .nav__item {
-        @include flexy($just: center);
-        margin: 5px 0 5px;
-        border: 2px solid red;
-    }
+  @include flexy($disp: flex,$dir: row);
+  .nav_item {
+    @extend %layout;
+    list-style: none;
     a {
         @extend %style-box;
-        color: $white;
+        color: $font-color;
         text-decoration: none;
-        width: 100%;
-    }
+        font-family: $font-type;
+        font-size: 1rem;
+        font-weight: lighter;
+        letter-spacing: 0.5px;
+        line-height: 17px;
+      }
+  }
 }

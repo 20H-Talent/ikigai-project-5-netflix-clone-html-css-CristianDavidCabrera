@@ -2,14 +2,14 @@
 //  Mixins
 // ======================================
 
-// Colors
-@mixin btn-color($map) {
-    @each $theme, $color in $map {
-      &--#{$theme} {
-        background-color: $color;
-      }
-    } 
-}
+// // Colors
+// @mixin btn-color($map) {
+//     @each $theme, $color in $map {
+//       &--#{$theme} {
+//         background-color: $color;
+//       }
+//     } 
+// }
 
 // Create a flex container
 @mixin flexy(
@@ -25,9 +25,9 @@
   align-items: $ali;
 }
 
-//Media queries
-@mixin breakpoint($value) {
-    @media (min-width: $value){
-        @content;
-    }
-}
+// //Media queries
+// @mixin breakpoint($value) {
+//     @media (min-width: $value){
+//         @content;
+//     }
+// }
