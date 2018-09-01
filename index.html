@@ -29,41 +29,47 @@
 <body class="container">
     <header class="header_logo">
         <div class="header_nav">
-            <div class="container_logo">
-                <img class="img--logo" alt="Netflix" src="images/icons/logo-netflix.svg">
-            </div>
             <nav role="navigation">
+
                 <ul class="nav">
-                    <li class="nav_item"><a href="#home">Home</a></li>
-                    <li class="nav_item"><a href="#tv-shows">TV Shows</a></li>
-                    <li class="nav_item"><a href="#movies">Movies</a></li>
-                    <li class="nav_item"><a href="#recently-added">Recently Added</a></li>
-                    <li class="nav_item"><a href="#my-list">My List</a></li>
+                    <a href="#logo"> <img class="img--logo" src="images/icons/logo-netflix.svg" alt="Netflix logo"></a>
+                    <!-- <li><img class="img--logo" alt="Netflix" src="images/icons/logo-netflix.svg"></li> -->
+
+                    <li class="nav_item--home"><a href="#home">Home</a></li>
+                    <li class="nav_item--tv"><a href="#tv-shows">TV Shows</a></li>
+                    <li class="nav_item--movies"><a href="#movies">Movies</a></li>
+                    <li class="nav_item--recent-add"><a href="#recently-added">Recently Added</a></li>
+                    <li class="nav_item--my-list"><a href="#my-list">My List</a></li>
+                    <!-- <li><img class="img--lupa" alt="Netflix" src="images/icons/lupa.svg"></li> -->
+
+                    <form action="" class="nav-forms">
+                        <label for="search"> <img src="images/icons/lupa.svg"></label>
+                    </form>
                 </ul>
             </nav>
         </div>
-
     </header>
 
     <main>
-        <section>NETFLIX ORIGINALS</section>
-            <!-- Carusel type 1 -->
+        <div class="content-movie"></div>
+        <section class="carusel_1">NETFLIX ORIGINALS</section>
+        <!-- Carusel type 1 -->
 
-        <section>Continue Watching</section>
-            <!-- Carusel type 2 -->
+        <section class="carusel_2">Continue Watching</section>
+        <!-- Carusel type 2 -->
 
-        <section>Trending now</section>
-            <!-- Carusel type 2 -->
+        <section class="carusel_2">Trending now</section>
+        <!-- Carusel type 2 -->
 
-        <section>Sci-Fi</section>
-             <!-- Carusel type 2 -->
-        
-        <section>Animation</section>
-            <!-- Carusel type 2 -->
-        
-        <section>Kids</section>
-            <!-- Carusel type 2 -->
-    
+        <section class="carusel_2">Sci-Fi</section>
+        <!-- Carusel type 2 -->
+
+        <section class="carusel_2">Animation</section>
+        <!-- Carusel type 2 -->
+
+        <section class="carusel_2">Kids</section>
+        <!-- Carusel type 2 -->
+
     </main>
 
     <footer>
@@ -72,7 +78,7 @@
         <img src="images/icons/twitter.svg" alt="twitter">
         <img src="images/icons/youtube-play.svg" alt="youtube-play">
 
-            <!-- we must finish linking the sections.-->
+        <!-- we must finish linking the sections.-->
 
         <ul>
             <li><a href="" target="_blank" class="link-footer">About this project</a></li>

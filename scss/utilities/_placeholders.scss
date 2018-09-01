@@ -2,13 +2,10 @@
 %style-box {
     padding: 15px 10px;
     border: none;
-    border-radius: 4px;
-    resize: none; /* Text area only */
 }
 
-//Layout
-%layout {
+%style-box-2 {
+    padding: 2rem;
     width: 100%;
-    margin: 0 auto;
-    text-align: center;
+    border: none;
 }

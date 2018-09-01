@@ -1,0 +1,27 @@
+.carusel_1{
+    @extend %style-box-2;
+    border: 2px solid red;
+    overflow: auto;
+
+}
+
+.carusel_2{
+    @extend %style-box-2;
+    border: 2px solid green;
+}
+
+
+section{
+    height: 500px;	
+    width: 185px;	
+    color: #FFFFFF;	
+    font-family: Helvetica;	
+    font-size: 20px;	
+    font-weight: bold;	
+    letter-spacing: 0.16px;	
+    line-height: 24px;
+   }
+  .content-movie{
+    height: 810.44px;	
+    width: 100%;
+  }

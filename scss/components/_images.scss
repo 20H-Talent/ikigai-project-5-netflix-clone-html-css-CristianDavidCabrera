@@ -6,9 +6,15 @@
 
 .img {
   &--logo {
-    margin: 1.2em 3.4em;
-    width: auto;
+    // margin: 1.2em 3.4em;
+    // width: auto;
+    height: 24.86px;
+    width: 92px;
+    margin: .23333rem;
+    margin-right: 1.2em;
+  }
+  &--lupa {
+    height: 19.15px;
+    width: 18.8px;
   }
 }
-
-

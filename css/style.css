@@ -1,16 +1,13 @@
 @import url(normalize.css);
-.nav .nav_item a {
+nav ul a {
   padding: 15px 10px;
   border: none;
-  border-radius: 4px;
-  resize: none;
-  /* Text area only */
 }
 
-.nav .nav_item {
+.carusel_1, .carusel_2 {
+  padding: 2rem;
   width: 100%;
-  margin: 0 auto;
-  text-align: center;
+  border: none;
 }
 
 *,
@@ -26,12 +23,6 @@ html {
   background-color: #141414;
 }
 
-header {
-  border: 2px solid red;
-  padding: 0;
-  margin: 0;
-}
-
 html.debug {
   background: transparent url(/ikigai-project-5-netflix-clone-html-css-CristianDavidCabrera/mockups/00-home.jpg) no-repeat top left;
   background-size: 100%;
@@ -41,18 +32,57 @@ html.debug body {
 }
 
 .img--logo {
-  margin: 1.2em 3.4em;
-  width: auto;
+  height: 24.86px;
+  width: 92px;
+  margin: .23333rem;
+  margin-right: 1.2em;
+}
+.img--lupa {
+  height: 19.15px;
+  width: 18.8px;
 }
 
-.nav {
+nav {
   display: flex;
   flex-direction: row;
 }
-.nav .nav_item {
+nav ul {
+  margin-left: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+nav ul li {
+  margin-right: 18px;
+  color: rgba(255, 255, 255, 0.4);
+  font-family: Helvetica;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 17px;
   list-style: none;
 }
-.nav .nav_item a {
+nav ul li .nav_item--home {
+  height: 17px;
+  width: 41px;
+}
+nav ul li .nav_item--tv {
+  height: 17px;
+  width: 68px;
+}
+nav ul li .nav_item--movies {
+  height: 17px;
+  width: 48px;
+}
+nav ul li .nav_item--recent-add {
+  height: 17px;
+  width: 106px;
+}
+nav ul li .nav_item--my-list {
+  height: 17px;
+  width: 48px;
+}
+nav ul a {
+  margin: 1.25px 1px;
   color: rgba(255, 255, 255, 0.4);
   text-decoration: none;
   font-family: Helvetica;
@@ -60,6 +90,43 @@ html.debug body {
   font-weight: lighter;
   letter-spacing: 0.5px;
   line-height: 17px;
+  text-align: center;
+}
+nav ul form {
+  position: absolute;
+  right: 63px;
+  top: 24px;
+}
+
+.carusel_1 {
+  border: 2px solid red;
+  overflow: auto;
+}
+
+.carusel_2 {
+  border: 2px solid green;
+}
+
+section {
+  height: 500px;
+  width: 185px;
+  color: #FFFFFF;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.16px;
+  line-height: 24px;
+}
+
+.content-movie {
+  height: 810.44px;
+  width: 100%;
+}
+
+footer {
+  height: auto;
+  width: 100%;
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

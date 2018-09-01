@@ -1,19 +1,63 @@
-//Nav Items
+// ======================================
+// Navigation Bar
+// ======================================
 
-.nav {
-  @include flexy($disp: flex,$dir: row);
-  .nav_item {
-    @extend %layout;
-    list-style: none;
-    a {
-        @extend %style-box;
-        color: $font-color;
-        text-decoration: none;
-        font-family: $font-type;
-        font-size: 1rem;
-        font-weight: lighter;
-        letter-spacing: 0.5px;
-        line-height: 17px;
-      }
-  }
+
+nav {
+    @include flexy($disp:flex, $dir:row);
+    ul {
+        margin-left: 45px;
+        @include flexy($disp:flex, $dir:row, $ali:center);
+        li {
+            margin-right: 18px;
+            color: $font-color;
+            font-family: Helvetica;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+            line-height: 17px;
+            list-style: none;
+
+            .nav_item {
+                // @include flexy($disp:flex, $wrap:wrap);
+                // height: 17px;	
+                &--home{
+                  height: 17px;	
+                  width: 41px;
+                }
+                &--tv{
+                  height: 17px;	
+                  width: 68px;
+                }
+                &--movies{
+                  height: 17px;	
+                  width: 48px;
+                }
+                &--recent-add{
+                  height: 17px;	
+                  width: 106px;
+                }
+                &--my-list{
+                  height: 17px;	
+                  width: 48px;
+              }
+            }
+        }
+        a {
+            @extend %style-box;
+            margin: 1.25px 1px;
+            color: $font-color;
+            text-decoration: none;     
+            font-family: $font-type;
+            font-size: 1rem;
+            font-weight: lighter;
+            letter-spacing: 0.5px;
+            line-height: 17px;
+            text-align: center;
+        }
+        form {
+            position: absolute;
+            right: 63px;
+            top: 24px;
+        }
+    }  
 }
