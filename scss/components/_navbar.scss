@@ -20,30 +20,30 @@ nav {
             line-height: 17px;
             list-style: none;
 
-            .nav_item {
-                @include flexy($disp:flex, $wrap:wrap);
-                height: 17px;	
-                &--home{
-                  height: 17px;	
-                  width: 41px;
-                }
-                &--tv{
-                  height: 17px;	
-                  width: 68px;
-                }
-                &--movies{
-                  height: 17px;	
-                  width: 48px;
-                }
-                &--recent-add{
-                  height: 17px;	
-                  width: 106px;
-                }
-                &--my-list{
-                  height: 17px;	
-                  width: 48px;
-              }
-            }
+            // .nav_item {
+            //     @include flexy($disp:flex, $wrap:wrap);
+            //     height: 17px;	
+            //     &--home{
+            //       height: 17px;	
+            //       width: 41px;
+            //     }
+            //     &--tv{
+            //       height: 17px;	
+            //       width: 68px;
+            //     }
+            //     &--movies{
+            //       height: 17px;	
+            //       width: 48px;
+            //     }
+            //     &--recent-add{
+            //       height: 17px;	
+            //       width: 106px;
+            //     }
+            //     &--my-list{
+            //       height: 17px;	
+            //       width: 48px;
+            //   }
+            // }
         }
         a {
             @extend %style-box;

@@ -1,17 +1,16 @@
 .carousel-type1 {
 @include flexy($dir: row);
   @extend %style-box-1;
-  border: 2px solid red;
   overflow: auto;
   height: 434px;
   width: 100%;
   margin-bottom: 63px;
+  margin-right: 5px;
 }
 
 .carousel-type2 {
   @include flexy($dir: row);
   @extend %style-box-2;
-  border: 2px solid green;
   height: 121.69px;
   width: 100%;
   margin-bottom: 44px;
