@@ -1,33 +1,25 @@
-.carusel_1{
-    @extend %style-box-2;
-    border: 2px solid red;
-    overflow: auto;
-    height: 468px;	
-    width: 100%;
-    margin-bottom: 63px;
-
+.carousel-type1 {
+@include flexy($dir: row);
+  @extend %style-box-1;
+  border: 2px solid red;
+  overflow: auto;
+  height: 434px;
+  width: 100%;
+  margin-bottom: 63px;
 }
 
-.carusel_2{
-    @extend %style-box-2;
-    border: 2px solid green;
-    height: 169px;	
-    width: 100%;
-    margin-bottom: 44px;
+.carousel-type2 {
+  @include flexy($dir: row);
+  @extend %style-box-2;
+  border: 2px solid green;
+  height: 121.69px;
+  width: 100%;
+  margin-bottom: 44px;
 }
-
-
-section{
-    height: 500px;	
-    width: 185px;	
-    color: #FFFFFF;	
-    font-family: Helvetica;	
-    font-size: 20px;	
-    font-weight: bold;	
-    letter-spacing: 0.16px;	
-    line-height: 24px;
-   }
-  .content-movie{
-    height: 810.44px;	
-    width: 100%;
+.content-movie {
+  height: 810.44px;
+  width: 100%;
+}
+h2{
+    @extend %style-typography;
   }

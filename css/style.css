@@ -4,10 +4,29 @@ nav ul a {
   border: none;
 }
 
-.carusel_1, .carusel_2 {
+.carousel-type1 {
   padding: 2rem;
   width: 100%;
   border: none;
+  height: 434px;
+  width: 217px;
+}
+
+.carousel-type2 {
+  padding: 2rem;
+  width: 100%;
+  border: none;
+  height: 121.69px;
+  width: 216px;
+}
+
+h2 {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.16px;
+  line-height: 24px;
 }
 
 *,
@@ -21,6 +40,14 @@ html {
   height: 2572px;
   width: 100%;
   background-color: #141414;
+}
+
+html.debug {
+  background: transparent url(/ikigai-project-5-netflix-clone-html-css-CristianDavidCabrera/mockups/00-home.jpg) no-repeat top left;
+  background-size: 100%;
+}
+html.debug body {
+  opacity: 0.7;
 }
 
 .img--logo {
@@ -110,30 +137,23 @@ nav:hover a {
   width: 1440px;
 }
 
-.carusel_1 {
+.carousel-type1 {
+  display: flex;
+  flex-direction: row;
   border: 2px solid red;
   overflow: auto;
-  height: 468px;
+  height: 434px;
   width: 100%;
   margin-bottom: 63px;
 }
 
-.carusel_2 {
+.carousel-type2 {
+  display: flex;
+  flex-direction: row;
   border: 2px solid green;
-  height: 169px;
+  height: 121.69px;
   width: 100%;
   margin-bottom: 44px;
-}
-
-section {
-  height: 500px;
-  width: 185px;
-  color: #FFFFFF;
-  font-family: Helvetica;
-  font-size: 20px;
-  font-weight: bold;
-  letter-spacing: 0.16px;
-  line-height: 24px;
 }
 
 .content-movie {
@@ -142,8 +162,6 @@ section {
 }
 
 footer {
-  height: auto;
-  width: 100%;
   background-color: #fff;
 }
 

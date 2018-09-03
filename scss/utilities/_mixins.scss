@@ -25,9 +25,13 @@
   align-items: $ali;
 }
 
-// //Media queries
-// @mixin breakpoint($value) {
-//     @media (min-width: $value){
-//         @content;
-//     }
+
+
+// @mixin get-img($map) {
+//   @each $image, $rout in $map {
+//       &--#{$image}.img-position {
+//           background-color: $color;
+//           @content;
+//       }
+//   } 
 // }
