@@ -18,8 +18,8 @@ nav {
             list-style: none;
 
             .nav_item {
-                // @include flexy($disp:flex, $wrap:wrap);
-                // height: 17px;	
+                @include flexy($disp:flex, $wrap:wrap);
+                height: 17px;	
                 &--home{
                   height: 17px;	
                   width: 41px;

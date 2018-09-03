@@ -61,6 +61,11 @@ nav ul li {
   line-height: 17px;
   list-style: none;
 }
+nav ul li .nav_item {
+  display: flex;
+  flex-wrap: wrap;
+  height: 17px;
+}
 nav ul li .nav_item--home {
   height: 17px;
   width: 41px;
