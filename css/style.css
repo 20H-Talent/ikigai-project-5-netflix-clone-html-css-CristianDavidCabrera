@@ -158,6 +158,30 @@ nav:hover a {
 
 footer {
   background-color: #fff;
+  margin-bottom: 35px;
+  height: 246px;
+  width: 849px;
+  margin-right: 362px;
+  margin-left: 229px;
+  margin-top: 146px;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul a {
+  color: black;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+  line-height: 17px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

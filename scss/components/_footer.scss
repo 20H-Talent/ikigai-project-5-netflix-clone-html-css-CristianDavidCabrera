@@ -1,5 +1,44 @@
 footer {
-    // height: auto;
-    // width: 100%;
-    background-color: $white;
+  // height: auto;
+  // width: 100%;
+  background-color: $white;
+  margin-bottom: 35px;
+  @include box-nav(
+    $h: 246px,
+    $w: 849px,
+    $margin-r: 362px,
+    $margin-l: 229px,
+    $margin-t: 146px
+  );
+
+  ul {
+    @include flexy($disp: flex, $dir: row, $ali: center);
+    li {
+      list-style: none;
+    }
+    a {
+      // @extend %style-box;
+      // margin: 1.25px 1px;
+      color: black;
+      text-decoration: none;
+      font-family: $font-type;
+      font-size: 14px;
+      font-weight: lighter;
+      letter-spacing: 0.5px;
+      line-height: 17px;
+      text-align: center;
+    }
+  }
+
+  .icon {
+    &--face {
+        
+    }
+    &--instag {
+    }
+    &--twitter {
+    }
+    &--youtube {
+    }
+  }
 }
