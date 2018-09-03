@@ -2,72 +2,89 @@
 // Navigation Bar
 // ======================================
 
-
 nav {
-    width: 100%;
-    position:fixed; 
-    top:0;
-    @include flexy($disp:flex, $dir:row);
-    ul {
-        margin-left: 45px;
-        @include flexy($disp:flex, $dir:row, $ali:center);
-        li {
-            margin-right: 18px;
-            color: $font-color;
-            font-family: Helvetica;
-            font-size: 14px;
-            letter-spacing: 0.5px;
-            line-height: 17px;
-            list-style: none;
-
-            // .nav_item {
-            //     @include flexy($disp:flex, $wrap:wrap);
-            //     height: 17px;	
-            //     &--home{
-            //       height: 17px;	
-            //       width: 41px;
-            //     }
-            //     &--tv{
-            //       height: 17px;	
-            //       width: 68px;
-            //     }
-            //     &--movies{
-            //       height: 17px;	
-            //       width: 48px;
-            //     }
-            //     &--recent-add{
-            //       height: 17px;	
-            //       width: 106px;
-            //     }
-            //     &--my-list{
-            //       height: 17px;	
-            //       width: 48px;
-            //   }
-            // }
-        }
-        a {
-            @extend %style-box;
-            margin: 1.25px 1px;
-            color: $font-color;
-            text-decoration: none;     
-            font-family: $font-type;
-            font-size: 1rem;
-            font-weight: lighter;
-            letter-spacing: 0.5px;
-            line-height: 17px;
-            text-align: center;
-        }
-        form {
-            position: absolute;
-            right: 63px;
-            top: 24px;
-        }
-    }  
+  width: 100%;
+  position: fixed;
+  top: 0;
+  // @include flexy($disp:flex, $dir:row);
+  ul {
+    margin-left: 45px;
+    @include flexy($disp: flex, $dir: row, $ali: center);
+    li{
+        list-style: none;
+    }
+    a {
+      // @extend %style-box;
+      // margin: 1.25px 1px;
+      color: $font-color;
+      text-decoration: none;
+      font-family: $font-type;
+      font-size: 14px;
+      font-weight: lighter;
+      letter-spacing: 0.5px;
+      line-height: 17px;
+      text-align: center;
+    }
+    form {
+      position: absolute;
+      right: 63px;
+      top: 24px;
+    }
+  }
 }
 
 nav:hover {
-    background: $primary-color;
-    a {
-        color: $white;
-    }
+  background: $primary-color;
+  a {
+    color: $white;
+  }
+}
+
+.nav_item {
+  &--home {
+    @include box-nav (
+        $h: 17px,
+        $w: 41px,
+        $margin-r: 19px,
+        $margin-l: 22px,
+        $margin-t: 21px
+    );
+  }
+
+  &--tv {
+    @include box-nav (
+        $h: 17px,
+        $w: 68px,
+        $margin-r: 16px,
+        $margin-l: 0,
+        $margin-t: 19px
+    );
+  }
+  &--movies {
+    @include box-nav (
+        $h: 17px,
+        $w: 48px,
+        $margin-r: 18px,
+        $margin-l: 0,
+        $margin-t: 19px
+    );
+  }
+  &--recent-add {
+    @include box-nav (
+        $h: 17px,
+        $w: 121px,
+        $margin-r: 0,
+        $margin-l: 0,
+        $margin-t: 19px
+    );
+  }
+  &--my-list {
+    @include box-nav (
+        $h: 17px,
+        $w: 106px,
+        $margin-r: 16px,
+        $margin-l: 0,
+        $margin-t: 19px
+    );
+  }
 }

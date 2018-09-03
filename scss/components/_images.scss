@@ -6,14 +6,13 @@
 
 .img {
   &--logo {
-    // margin: 1.2em 3.4em;
-    // width: auto;
     height: 24.86px;
     width: 92px;
-    margin: .23333rem;
-    margin-right: 1.2em;
+    margin-right: 22px;
+    margin-left: 14px;
+    margin-top: 22px;
   }
-  &--lupa {
+  &--search{
     height: 19.15px;
     width: 18.8px;
   }
@@ -22,8 +21,7 @@
 
 }
 
-
-//Loop 
+//Carousel
 .img-position {
   margin-right: 5px;
 }

@@ -1,9 +1,4 @@
 @import url(normalize.css);
-nav ul a {
-  padding: 15px 10px;
-  border: none;
-}
-
 .carousel-type1 {
   width: 100%;
   border: none;
@@ -15,7 +10,7 @@ nav ul a {
   width: 100%;
   border: none;
   height: 121.69px;
-  width: 216px;
+  width: 217px;
 }
 
 h2 {
@@ -47,10 +42,11 @@ html {
 .img--logo {
   height: 24.86px;
   width: 92px;
-  margin: .23333rem;
-  margin-right: 1.2em;
+  margin-right: 22px;
+  margin-left: 14px;
+  margin-top: 22px;
 }
-.img--lupa {
+.img--search {
   height: 19.15px;
   width: 18.8px;
 }
@@ -63,8 +59,6 @@ nav {
   width: 100%;
   position: fixed;
   top: 0;
-  display: flex;
-  flex-direction: row;
 }
 nav ul {
   margin-left: 45px;
@@ -73,20 +67,13 @@ nav ul {
   align-items: center;
 }
 nav ul li {
-  margin-right: 18px;
-  color: rgba(255, 255, 255, 0.4);
-  font-family: Helvetica;
-  font-size: 14px;
-  letter-spacing: 0.5px;
-  line-height: 17px;
   list-style: none;
 }
 nav ul a {
-  margin: 1.25px 1px;
   color: rgba(255, 255, 255, 0.4);
   text-decoration: none;
   font-family: Helvetica;
-  font-size: 1rem;
+  font-size: 14px;
   font-weight: lighter;
   letter-spacing: 0.5px;
   line-height: 17px;
@@ -103,6 +90,42 @@ nav:hover {
 }
 nav:hover a {
   color: #fff;
+}
+
+.nav_item--home {
+  height: 17px;
+  width: 41px;
+  margin-right: 19px;
+  margin-left: 22px;
+  margin-top: 21px;
+}
+.nav_item--tv {
+  height: 17px;
+  width: 68px;
+  margin-right: 16px;
+  margin-left: 0;
+  margin-top: 19px;
+}
+.nav_item--movies {
+  height: 17px;
+  width: 48px;
+  margin-right: 18px;
+  margin-left: 0;
+  margin-top: 19px;
+}
+.nav_item--recent-add {
+  height: 17px;
+  width: 121px;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 19px;
+}
+.nav_item--my-list {
+  height: 17px;
+  width: 106px;
+  margin-right: 16px;
+  margin-left: 0;
+  margin-top: 19px;
 }
 
 .content-movie {
