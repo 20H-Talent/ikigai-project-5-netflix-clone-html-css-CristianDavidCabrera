@@ -3,7 +3,91 @@
 // ======================================
 
 
-.content-movie{
+.content-movie {
     height: 810.44px;
     width: 1440px;
+}
+
+h1, h2, h3, p {
+    color: white;
+    border: 2px solid red;
+}
+
+.secondary-container {
+    
+    height: 74.31px;	
+    width: 459.12px;
+    margin-left: 61px;
+    margin-top: 256px;
+}
+.title-movie {
+    text-align: center;
+}
+h3 {
+    height: 26px;	
+    width: 230px;	
+    color: #FFFFFF;	
+    font-family: Helvetica;	
+    font-size: 22px;	
+    font-weight: bold;	
+    letter-spacing: 0.22px;	
+    line-height: 26px;
+    margin-top: 14px;
+    margin-left: -4px;
+}
+p {
+    height: 75px;	
+    width: 485px;	
+    color: #FFFFFF;	
+    font-family: Helvetica;	
+    font-size: 20px;	
+    font-weight: 300;	
+    letter-spacing: 0.2px;	
+    line-height: 25px;
+    margin-left: -2px;
+}
+
+.buttons {
+    text-align: center;
+    &--play{
+        display: inline-block;
+        border-radius: 3px;	
+        background-color: rgba(51,51,51,0.4);
+        @include box-nav (
+            $h: 41px,
+            $w: 129px,
+            $margin-r: 7px,
+            $margin-l:-2px,
+            $margin-t:31px
+        );
+
+        img {
+            @include box-nav (
+                $h:17px,
+                $w:15.1px,
+                $margin-r: 78.4px,
+                $margin-l:35.5px,
+                $margin-t: 9.5px,
+                $margin-b: 14.5px
+            );
+        }
+    }
+    &--list {
+        display: inline-block;
+        height: 41px;
+        width: 154px;	
+        border-radius: 3px;	
+        background-color: rgba(51,51,51,0.4);
+        img {
+            @include box-nav (
+                $h: 16px,
+                $w: 16px,
+                $margin-r: 101.5px,
+                $margin-l:36.5px,
+                $margin-t: 12px,
+                $margin-b: 13px
+            );
+        }
+    }
+    
 }

@@ -21,12 +21,14 @@
   $w: null,
   $margin-r:null,
   $margin-l:null,
-  $margin-t:null){
+  $margin-t:null,
+  $margin-b:null){
   height: $h;
   width: $w;
   margin-right: $margin-r; 
   margin-left: $margin-l;
-  margin-top:$margin-t;
+  margin-top: $margin-t;
+  margin-bottom: $margin-b;
 }
 
 // @mixin get-img($map) {
