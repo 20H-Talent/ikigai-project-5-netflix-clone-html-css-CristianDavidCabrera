@@ -8,6 +8,16 @@ h2 {
   line-height: 24px;
 }
 
+footer .links-footer ul li, footer .links-footer ul a, footer .copyright {
+  height: 16px;
+  width: 84px;
+  color: #7F7F7F;
+  font-family: Helvetica;
+  font-size: 13px;
+  letter-spacing: 0.25px;
+  line-height: 16px;
+}
+
 *,
 html {
   margin: 0;
@@ -297,15 +307,14 @@ h2 {
 footer {
   background-color: #141414;
   height: 246px;
-  width: 849px;
+  width: 860px;
   margin-right: 362px;
   margin-left: 229px;
-  margin-top: 146px;
+  margin-top: 119px;
   margin-bottom: 35px;
 }
 footer .social-media {
   width: 191px;
-  margin-top: 235px;
   display: flex;
   justify-content: space-between;
 }
@@ -325,23 +334,31 @@ footer .links-footer ul li {
 }
 footer .links-footer ul a {
   text-decoration: none;
-  height: 16px;
-  width: 105px;
-  color: #7F7F7F;
-  font-family: Helvetica;
-  font-size: 13px;
-  letter-spacing: 0.25px;
-  line-height: 16px;
+}
+footer .col--1 {
+  margin-left: -4px;
+  margin-top: 3px;
+  margin-bottom: 61px;
+}
+footer .col--2 {
+  margin-left: -78px;
+  margin-top: 3px;
+  width: 100px;
+}
+footer .col--3 {
+  width: 80px;
+  margin-left: -2px;
+  margin-top: 3px;
+}
+footer .col--4 {
+  width: 128px;
+  margin-left: 20px;
+  margin-top: 3px;
 }
 footer .copyright {
   height: 17px;
   width: 116px;
   margin-top: 58px;
-  color: #7F7F7F;
-  font-family: Helvetica;
-  font-size: 14px;
-  letter-spacing: 0.11px;
-  line-height: 17px;
 }
 
 /*# sourceMappingURL=style.css.map */

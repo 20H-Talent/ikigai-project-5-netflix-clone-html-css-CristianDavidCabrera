@@ -2,15 +2,15 @@ footer {
   background-color: #141414;
   @include box-nav(
     $h: 246px,
-    $w: 849px,
+    $w: 860px,
     $margin-r: 362px,
     $margin-l: 229px,
-    $margin-t: 146px,
+    $margin-t: 119px,
     $margin-b: 35px
   );
   .social-media {
     width: 191px;
-    margin-top: 235px;
+    // margin-top: 235px;
     display: flex;
     justify-content: space-between;
   }
@@ -26,58 +26,44 @@ footer {
         margin-bottom: 15px;
         margin-right: 65px;
         margin-left: 5px;
-        color: $font-secondary-color;	
-        
+        color: $font-secondary-color;
+        @extend %style-footer;
       }
       a {
         text-decoration: none;
-        // font-family: $font-type;
-        // font-size: 14px;
-        // font-weight: lighter;
-        // letter-spacing: 0.5px;
-        // line-height: 17px;
-        // text-align: center;
-
-        height: 16px;
-        width: 105px;
-        color: $font-secondary-color;	
-        font-family: $font-type;
-        font-size: 13px;
-        letter-spacing: 0.25px;
-        line-height: 16px;
+        @extend %style-footer;
       }
     }
   }
-// .col--1{
+  .col--1 {
+    // margin-left: -4px;
+    // margin-top: 0px;
+    // margin-bottom: 65px;
+    margin-left: -4px;
+    margin-top: 3px;
+    margin-bottom: 61px;
+  }
+  .col--2 {
+    margin-left: -78px;
+    margin-top: 3px;
+    width: 100px;
+  }
 
-//   margin-left: -4px;
-// }
-// .col--2{
-//   margin-left: 22px;
-// }
+  .col--3 {
+    width: 80px;
+    margin-left: -2px;
+    margin-top: 3px;
+  }
+  .col--4 {
+    width: 128px;
+    margin-left: 20px;
+    margin-top: 3px;
+  }
 
-// .col--3{
-//   // margin-left: 12px;
-//   margin-left: 46px;
-//   margin-right: -26px;
-// }
-// .col--4{
-//   margin-left: 12px;
-// }
-// .col--5{
-//   margin-left: 12px;
-// }
-
-
-  .copyright{
-    height: 17px;	
-    width: 116px;	
+  .copyright {
+    height: 17px;
+    width: 116px;
     margin-top: 58px;
-
-    color: $font-secondary-color;	
-    font-family: $font-type;
-    font-size: 14px;	
-    letter-spacing: 0.11px;	
-    line-height: 17px;
+    @extend %style-footer;
   }
 }
