@@ -25,10 +25,25 @@ nav {
       text-align: center;
     }
     form {
+      // Estado:antes.
       position: absolute;
-      right: 63px;
-      top: 24px;
+      right: 120px;
+      top: 22px;
+      input{
+        display:none;
+      }
+      
+      //Estado después. Con el HOVER.
+      // position: absolute;
+      // right: 120px;
+      // top: 18px;
+      // height: 34px;	
+      // width: 268px;	
+      // border: 1px solid #DDDDDD;	
+      // background-color: #1D1C1D;
+
     }
+    
   }
 }
 
