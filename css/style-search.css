@@ -169,7 +169,7 @@ footer .links-footer {
   flex-wrap: wrap;
 }
 footer .links-footer ul li {
-  width: 100%;
+  width: 120px;
   list-style: none;
   margin-bottom: 15px;
   margin-right: 65px;
@@ -201,7 +201,7 @@ footer .col--4 {
 }
 footer .copyright {
   height: 17px;
-  width: 116px;
+  width: 120px;
   margin-top: 58px;
 }
 
@@ -229,3 +229,5 @@ footer .links-footer ul li, footer .links-footer ul a, footer .copyright {
   letter-spacing: 0.25px;
   line-height: 16px;
 }
+
+
