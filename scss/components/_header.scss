@@ -6,6 +6,7 @@
   height: 810.44px;
   width: 1440px;
   display: inline-block;
+  -webkit-appearance: none;
   
 }
 .secondary-container {
@@ -42,8 +43,16 @@ p {
   margin-left: -2px;
 }
 
+
+// ======================================
+// BUTTONS 
+// ======================================
+
+
 .button {
   
+    // -webkit-appearance: none;
+    // /*  resetear la apariencia de los botones  */
 
   &--play {
     display: inline-block;
@@ -72,16 +81,13 @@ p {
         $margin-b: 12px
       );
     }
-
   }
-
   &--list {
     display: inline-block;
     height: 41px;
     width: 154px;
     border-radius: 3px;
     background-color: $buttons-color;
-  
     button{
       margin-bottom: 10px;
       margin-top: 10px;

@@ -23,12 +23,12 @@
   $margin-l:null,
   $margin-t:null,
   $margin-b:null){
-  height: $h;
-  width: $w;
-  margin-right: $margin-r; 
-  margin-left: $margin-l;
-  margin-top: $margin-t;
-  margin-bottom: $margin-b;
+    height: $h;
+    width: $w;
+    margin-right: $margin-r; 
+    margin-left: $margin-l;
+    margin-top: $margin-t;
+    margin-bottom: $margin-b;
 }
 
 // @mixin get-img($map) {
@@ -39,3 +39,18 @@
 //       }
 //   } 
 // }
+
+@mixin style-typography (
+  $color:null,
+  $font:null,
+  $size:null,
+  $weight:null,
+  $spacing:null,
+  $ln-height:null){
+    color: $color;
+    font-family:   $font;	
+    font-size: $size;	
+    font-weight: $weight;	
+    letter-spacing: $spacing;	
+    line-height: $ln-height;
+}

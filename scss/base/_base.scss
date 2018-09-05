@@ -19,35 +19,35 @@ html {
         position: absolute;
         top: 505px;
         right: 1px;
-        color: white;
-      border-left: 2px solid white;
-          height: 32px;	
-          width: 95px;	
-          background-color: #252928;
+        height: 32px;	
+        width: 95px;	
 
-          // height: 19px;	width: 28px;	
-          color: #FFFFFF;	
-          font-family: Helvetica;	
-          font-size: 16px;	
-          font-weight: bold;	
-          letter-spacing: 0.16px;	
-          line-height: 19px;
-          padding-left: 15px;
-          padding-top: 8px;
+        padding-left: 15px;
+        padding-top: 8px;
+        border-left: 2px solid white;
+        background-color: #252928;
+    
+        color: $font-primary-color;
+        font-family: Helvetica;	
+        font-size: 16px;	
+        font-weight: bold;	
+        letter-spacing: 0.16px;	
+        line-height: 19px;
+         
     }
 }
 
 //tricks to work better //delete when finished.------------------------------------
 
 
-html.debug {
-	background: transparent url(/ikigai-project-5-netflix-clone-html-css-CristianDavidCabrera/mockups/00-home.jpg) no-repeat top left;
-	background-size: 100%;
+// html.debug {
+// 	background: transparent url(/ikigai-project-5-netflix-clone-html-css-CristianDavidCabrera/mockups/00-home.jpg) no-repeat top left;
+// 	background-size: 100%;
 	
-	body {
-		opacity: 0.7;
-	}
-}
+// 	body {
+// 		opacity: 0.7;
+// 	}
+// }
 
 //tricks to work better------------------------------------------------------------
 

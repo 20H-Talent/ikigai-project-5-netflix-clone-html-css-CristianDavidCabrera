@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-search.css">
     <title>Netflix Clone</title>
 
-    <meta name="description" content="Learning project. Acquire skills to become a front-end developer in the 20h-talent bootcamp." />
+    <meta name="description" content="Learning project. Acquire skills to become a front-end developer in the 20h-talent bootcamp."
+    />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Netflix Clone" />
+    <meta property="og:title" content="Netflix Clone Search" />
     <meta property="og:description" content="Learning project" />
     <meta property="og:image" content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg"
     />
@@ -40,7 +41,7 @@
                     <li class="nav_item--my-list"><a href="#my-list">My List</a></li>
 
                     <form action="./search.html" class="img--search">
-                        <label for="search"> 
+                        <label for="search">
                             <img src="images/icons/lupa.svg">
                         </label>
                         <input type="text" name="search" id="search" placeholder="Titles, people, genders">
@@ -58,66 +59,10 @@
         </div>
     </header>
 
-    <main>
-
-        <div class="content-movie">
-            <div class="header-image">
-                <label for="header-image"><img src="images/movie-images/pelicula-inocents.svg"></label>
-            </div>
-            <!--Menu info, synopsis-->
-            <div class="secondary-container">
-
-                <div class="title-movie">
-                    <img src="images/movie-images/imagen-titulo.svg" alt="Movie Title">
-                </div>
-                <div class="button--play">
-                    <button type="button"><img src="images/icons/line.svg"><span class="play-text">Play</span></button>
-                </div>
-                <div class="button--list">
-                    <button type="button"><img src="images/icons/icon-plus.svg"><span class="list-text">My List</span></button>
-                </div>
-                <div>
-                    <h3>Watch Season 1 Now</h3>
-                    <p>A secret love, a terrifying encounter. One night will change their lives forever -- and awaken a power
-                        she can’t control. </p>
-                </div>
-                <div class="age-label rectangle"> 13+</div>
-
-            </div>
-        </div>
-
-        <!-- Caroursel type 1-->
-        <div>
-            <h2 id="original">NETFLIX ORIGINALS</h2>
-            <div class="carousel-type1">
-                <div class="item--1 img-position">
-                    <img src="images/movie-images/v-magic.jpg" alt="Magic for Humans">
-                </div>
-                <div class="item--2 img-position">
-                    <img src="images/movie-images/v-big-fish.jpg" alt="Big Fish and Begonia">
-                </div>
-                <div class="item--3 img-position">
-                    <img src="images/movie-images/v-insatiable.png" alt="Insatiable">
-                </div>
-                <div class="item--4 img-position">
-                    <img src="images/movie-images/v-magic.jpg" alt="Magic for Humans">
-                </div>
-                <div class="item--5 img-position">
-                    <img src="images/movie-images/v-big-fish.jpg" alt="Big Fish and Begonia">
-                </div>
-                <div class="item--6 img-position">
-                    <img src="images/movie-images/v-insatiable.png" alt="Insatiable">
-                </div>
-
-                <div class="item--7 img-position">
-                    <img src="images/movie-images/v-magic.jpg" alt="Magic for Humans">
-                </div>
-            </div>
-        </div>
-
+    <main class="main-content">
         <!-- five sections with a carousel type two each one. -->
         <div>
-            <h2>Continue Watching </h2>
+            <h2 class="section-vs">Continue Watching </h2>
             <div class="carousel-type2">
 
                 <div class="item--1 img-position">
@@ -172,7 +117,7 @@
         </div>
 
         <div>
-            <h2>Trending now </h2>
+            <h2 class="section-vs">Trending now</h2>
             <div class="carousel-type2">
 
                 <div class="item--1 img-position">
@@ -227,7 +172,7 @@
         </div>
 
         <div>
-            <h2>Sci-Fi</h2>
+            <h2 class="section-vs">Sci-Fi</h2>
             <div class="carousel-type2">
 
                 <div class="item--1 img-position">
@@ -282,7 +227,7 @@
         </div>
 
         <div>
-            <h2>Animation</h2>
+            <h2 class="section-vs">Animation</h2>
             <div class="carousel-type2">
 
                 <div class="item--1 img-position">
@@ -337,7 +282,7 @@
         </div>
 
         <div>
-            <h2>Kids</h2>
+            <h2 class="section-vs">Kids</h2>
             <div class="carousel-type2">
 
                 <div class="item--1 img-position">
@@ -390,6 +335,123 @@
                 </div>
             </div>
         </div>
+
+
+
+        <div>
+            <h2 class="section-vs">No Name_1</h2>
+            <div class="carousel-type2">
+
+                <div class="item--1 img-position">
+                    <img src="images/movie-images/movie-square-bfbegonia.svg" alt="Big Fish and Begonia">
+                    <div class="progress-bar">
+                        <img src="images/movie-images/progress-bar.svg" alt="Progres Bar">
+                    </div>
+                </div>
+
+                <div class="item--2 img-position">
+                    <img src="images/movie-images/movie-square-modernfamily.svg" alt="Modern Family">
+                    <div class="progress-bar">
+                        <img src="images/movie-images/progress-bar.svg" alt="Progres Bar">
+                    </div>
+                </div>
+
+                <div class="item--3 img-position">
+                    <img src="images/movie-images/movie-square-rickmorty.svg" alt="Rick and Morty">
+                    <div class="progress-bar">
+                        <img src="images/movie-images/progress-bar.svg" alt="Progres Bar">
+                    </div>
+                </div>
+
+                <div class="item--4 img-position">
+                    <img src="images/movie-images/movie-square-magichumans.svg" alt="Magic for Humans">
+                    <div class="progress-bar">
+                        <img src="images/movie-images/progress-bar.svg" alt="Progres Bar">
+                    </div>
+                </div>
+
+                <div class="item--5 img-position">
+                    <img src="images/movie-images/movie-square-cosmos.svg" alt="Cosmos">
+                    <div class="progress-bar">
+                        <img src="images/movie-images/progress-bar.svg" alt="Progres Bar">
+                    </div>
+                </div>
+
+                <div class="item--6 img-position">
+                    <img src="images/movie-images/movie-square-bfbegonia.svg" alt="Big Fish and Begonia">
+                    <div class="progress-bar">
+                        <img src="images/movie-images/progress-bar.svg" alt="Progres Bar">
+                    </div>
+                </div>
+
+                <div class="item--7 img-position">
+                    <img src="images/movie-images/movie-square-doctor.svg" alt="Doctor Strange">
+                    <div class="progress-bar">
+                        <img src="images/movie-images/progress-bar.svg" alt="Progres Bar">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div>
+            <h2 class="section-vs">No Name_2</h2>
+            <div class="carousel-type2">
+
+                <div class="item--1 img-position">
+                    <img src="images/movie-images/movie-square-bfbegonia.svg" alt="Big Fish and Begonia">
+                    <div class="progress-bar">
+                        <img src="images/movie-images/progress-bar.svg" alt="Progres Bar">
+                    </div>
+                </div>
+
+                <div class="item--2 img-position">
+                    <img src="images/movie-images/movie-square-modernfamily.svg" alt="Modern Family">
+                    <div class="progress-bar">
+                        <img src="images/movie-images/progress-bar.svg" alt="Progres Bar">
+                    </div>
+                </div>
+
+                <div class="item--3 img-position">
+                    <img src="images/movie-images/movie-square-rickmorty.svg" alt="Rick and Morty">
+                    <div class="progress-bar">
+                        <img src="images/movie-images/progress-bar.svg" alt="Progres Bar">
+                    </div>
+                </div>
+
+                <div class="item--4 img-position">
+                    <img src="images/movie-images/movie-square-magichumans.svg" alt="Magic for Humans">
+                    <div class="progress-bar">
+                        <img src="images/movie-images/progress-bar.svg" alt="Progres Bar">
+                    </div>
+                </div>
+
+                <div class="item--5 img-position">
+                    <img src="images/movie-images/movie-square-cosmos.svg" alt="Cosmos">
+                    <div class="progress-bar">
+                        <img src="images/movie-images/progress-bar.svg" alt="Progres Bar">
+                    </div>
+                </div>
+
+                <div class="item--6 img-position">
+                    <img src="images/movie-images/movie-square-bfbegonia.svg" alt="Big Fish and Begonia">
+                    <div class="progress-bar">
+                        <img src="images/movie-images/progress-bar.svg" alt="Progres Bar">
+                    </div>
+                </div>
+
+                <div class="item--7 img-position">
+                    <img src="images/movie-images/movie-square-doctor.svg" alt="Doctor Strange">
+                    <div class="progress-bar">
+                        <img src="images/movie-images/progress-bar.svg" alt="Progres Bar">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
 
     </main>
 

@@ -13,7 +13,7 @@
 .carousel-type2 {
   @include flexy($dir: row);
   // @extend %style-box-2;
-  overflow-x: auto;
+  overflow: auto;
   height: 150px;
   width: 100%;
   margin-bottom: 25px;
