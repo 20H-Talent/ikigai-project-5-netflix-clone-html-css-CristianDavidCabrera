@@ -1,6 +1,6 @@
 .carousel-type1 {
 @include flexy($dir: row);
-  @extend %style-box-1;
+  // @extend %style-box-1;
   overflow: auto;
   height: 434px;
   width: 100%;
@@ -12,11 +12,12 @@
 
 .carousel-type2 {
   @include flexy($dir: row);
-  @extend %style-box-2;
-  overflow: auto;
-  height: 121.69px;
+  // @extend %style-box-2;
+  overflow-x: auto;
+  height: 150px;
   width: 100%;
-  margin-bottom: 44px;
+  margin-bottom: 25px;
+  margin-top: 10px;
   margin-left: 60px;
 }
 .content-movie {
@@ -33,4 +34,19 @@ h2{
   margin-top: -190px;
   margin-bottom: 183.5px;
   margin-left: 54px;
+}
+
+
+//Progress Bar
+.progress-bar{
+  height: 4px;	
+  width: 132px;
+  margin-top: -6px;
+  margin-left: 42px;
+  visibility: hidden;
+
+  
+}
+.bar-v{
+visibility: visible;
 }
