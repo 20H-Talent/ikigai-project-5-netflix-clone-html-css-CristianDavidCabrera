@@ -60,12 +60,17 @@ nav ul a {
   text-align: center;
 }
 nav ul form {
-  position: absolute;
-  right: 63px;
-  top: 24px;
-}
+   
+ position: absolute;
+ right: 120px;
+ top: 18px;
+ height: 34px;
+ width: 268px;
+ border: 1px solid #DDDDDD;
+ background-color: #1D1C1D;
+} 
 
-form{
+/* form{
   
  position: absolute;
  right: 120px;
@@ -74,24 +79,33 @@ form{
  width: 268px;
  border: 1px solid #DDDDDD;
  background-color: #1D1C1D;
-
  
+} */
+.search-box{
+  display: flex;
+  align-items: center;
+  right: 80px;
+
 }
- form button {
-  border: none;
-}
+
 .search-box img{
-  margin-top: 8px;
-    margin-left: 3px;
+  margin-top: 2px;
+  margin-left: 5px;
 }
 .search-box input{
-  /* padding-bottom: 8px; */
-  padding-top: 7px;
-  padding-left: 0;
-  padding-right: 111px;
-  border: none;
-  margin-left: 2px;
+    padding-top: 7px;
+    padding-right: 105px;
+    padding-bottom: 11px;
+    border: none;
+    margin-left: 10px;
 }
+
+.input-text{
+right: 120px;
+
+}
+
+
 
 
 nav:hover {
@@ -272,7 +286,7 @@ footer .links-footer ul li, footer .links-footer ul a, footer .copyright {
 /* //tricks to work better //delete when finished.------------------------------------ */
 
 
-/* html.debug {
+html.debug {
 
   background: transparent url(/ikigai-project-5-netflix-clone-html-css-CristianDavidCabrera/mockups/01-search.jpg) no-repeat top left; 
   background-size: 100%;
@@ -281,6 +295,6 @@ footer .links-footer ul li, footer .links-footer ul a, footer .copyright {
 }
 html.debug 	body {
   opacity: 0.7;
-} */
+}
 
 /* //tricks to work better------------------------------------------------------------ */

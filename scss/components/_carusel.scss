@@ -9,6 +9,9 @@
   margin-top: -183px;
   margin-left: 60px;
 }
+.carousel-type1::-webkit-scrollbar {
+  background: transparent; /* make scrollbar transparent */
+}
 
 .carousel-type2 {
   @include flexy($dir: row);
@@ -19,6 +22,9 @@
   margin-bottom: 25px;
   margin-top: 10px;
   margin-left: 60px;
+}
+.carousel-type2::-webkit-scrollbar {
+  background: transparent; /* make scrollbar transparent */
 }
 .content-movie {
   height: 810.44px;
