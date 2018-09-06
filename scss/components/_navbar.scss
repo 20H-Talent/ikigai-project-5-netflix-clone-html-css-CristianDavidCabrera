@@ -11,8 +11,8 @@ nav {
   ul {
     margin-left: 45px;
     @include flexy($disp: flex, $dir: row, $ali: center);
-    li{
-        list-style: none;
+    li {
+      list-style: none;
     }
     a {
       color: $font-primary-color;
@@ -29,27 +29,49 @@ nav {
       position: absolute;
       right: 120px;
       top: 22px;
-      input{
-        display:none;
-      }
-      
-      //Estado después. Con el HOVER.
-      // position: absolute;
-      // right: 120px;
-      // top: 18px;
-      // height: 34px;	
-      // width: 268px;	
-      // border: 1px solid #DDDDDD;	
-      // background-color: #1D1C1D;
-
+      transition: opacity .4s cubic-bezier(.665,.235,.265,.8);
+        input{
+          display:none;
+        }
+    }
+    form:hover {
+         // Estado después. Con el HOVER.
+      position: absolute;
+      right: 120px;
+      top: 18px;
+      height: 34px;
+      width: 268px;
+      border: 1px solid #DDDDDD;
+      background-color: #1D1C1D;
     }
     
+    // .search-box {
+    //   #lens {
+    //     // Estado:antes.
+    //     position: absolute;
+    //     right: 120px;
+    //     top: 22px;
+    //   }
+    //   input {
+    //     display: none;
+    //   }
+    // }
+    // .search-box:hover{
+    //   position: absolute;
+    //   right: 240px;
+    //   top: 6px;
+    //   height: 34px;
+    //   width: 268px;
+    //   border: 1px solid #DDDDDD;
+    //   background-color: #1D1C1D;
+    // }
+
   }
 }
 
 nav:hover {
   background: $primary-color;
-  
+
   a {
     color: $white;
   }
@@ -57,49 +79,49 @@ nav:hover {
 
 .nav_item {
   &--home {
-    @include box-nav (
-        $h: 17px,
-        $w: 41px,
-        $margin-r: 19px,
-        $margin-l: 22px,
-        $margin-t: 21px
+    @include box-nav(
+      $h: 17px,
+      $w: 41px,
+      $margin-r: 19px,
+      $margin-l: 22px,
+      $margin-t: 21px
     );
   }
 
   &--tv {
-    @include box-nav (
-        $h: 17px,
-        $w: 68px,
-        $margin-r: 16px,
-        $margin-l: 0,
-        $margin-t: 19px
+    @include box-nav(
+      $h: 17px,
+      $w: 68px,
+      $margin-r: 16px,
+      $margin-l: 0,
+      $margin-t: 19px
     );
   }
   &--movies {
-    @include box-nav (
-        $h: 17px,
-        $w: 48px,
-        $margin-r: 18px,
-        $margin-l: 0,
-        $margin-t: 19px
+    @include box-nav(
+      $h: 17px,
+      $w: 48px,
+      $margin-r: 18px,
+      $margin-l: 0,
+      $margin-t: 19px
     );
   }
   &--recent-add {
-    @include box-nav (
-        $h: 17px,
-        $w: 121px,
-        $margin-r: 0,
-        $margin-l: 0,
-        $margin-t: 19px
+    @include box-nav(
+      $h: 17px,
+      $w: 121px,
+      $margin-r: 0,
+      $margin-l: 0,
+      $margin-t: 19px
     );
   }
   &--my-list {
-    @include box-nav (
-        $h: 17px,
-        $w: 106px,
-        $margin-r: 16px,
-        $margin-l: 0,
-        $margin-t: 19px
+    @include box-nav(
+      $h: 17px,
+      $w: 106px,
+      $margin-r: 16px,
+      $margin-l: 0,
+      $margin-t: 19px
     );
   }
 }
