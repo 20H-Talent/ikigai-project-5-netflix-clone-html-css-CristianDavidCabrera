@@ -272,7 +272,7 @@ footer .links-footer ul li, footer .links-footer ul a, footer .copyright {
 /* //tricks to work better //delete when finished.------------------------------------ */
 
 
-html.debug {
+/* html.debug {
 
   background: transparent url(/ikigai-project-5-netflix-clone-html-css-CristianDavidCabrera/mockups/01-search.jpg) no-repeat top left; 
   background-size: 100%;
@@ -281,6 +281,6 @@ html.debug {
 }
 html.debug 	body {
   opacity: 0.7;
-}
+} */
 
 /* //tricks to work better------------------------------------------------------------ */
