@@ -13,8 +13,6 @@ html {
   width: 1440px;
 }
 
-
-
 .main-content{
     margin-top: 109px;
 } 
@@ -78,17 +76,6 @@ nav ul form {
  background-color: #1D1C1D;
 } 
 
-/* form{
-  
- position: absolute;
- right: 120px;
- top: 18px;
- height: 34px;
- width: 268px;
- border: 1px solid #DDDDDD;
- background-color: #1D1C1D;
- 
-} */
 .search-box{
   display: flex;
   align-items: center;

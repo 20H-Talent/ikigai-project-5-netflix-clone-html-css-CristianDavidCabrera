@@ -121,6 +121,30 @@ nav ul form:hover input {
   display: inline-block;
 }
 
+.search-box {
+  display: flex;
+  align-items: center;
+  right: 80px;
+}
+
+.search-box img {
+  margin-top: 2px;
+  margin-left: 5px;
+}
+
+.search-box input {
+  padding-top: 7px;
+  padding-right: 105px;
+  padding-bottom: 11px;
+  border: none;
+  margin-left: 10px;
+  background-color: #1D1C1D;
+}
+
+.input-text {
+  right: 120px;
+}
+
 nav:hover {
   background: #141414;
 }
