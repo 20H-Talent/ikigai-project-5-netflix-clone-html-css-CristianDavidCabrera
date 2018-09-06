@@ -7,6 +7,14 @@ html {
   box-sizing: border-box;
   background-color: #141414;
 }
+
+.container {
+  height: 1948px;
+  width: 1440px;
+}
+
+
+
 .main-content{
     margin-top: 109px;
 } 
@@ -105,9 +113,6 @@ right: 120px;
 
 }
 
-
-
-
 nav:hover {
   background: #141414;
 }
@@ -166,6 +171,9 @@ nav:hover a {
   margin-bottom: -5px;
   margin-top: 10px;
   margin-left: 60px;
+}
+.carousel-type2::-webkit-scrollbar {
+  background: transparent; /* make scrollbar transparent */
 }
 
 .img-position {
@@ -286,7 +294,7 @@ footer .links-footer ul li, footer .links-footer ul a, footer .copyright {
 /* //tricks to work better //delete when finished.------------------------------------ */
 
 
-html.debug {
+/* html.debug {
 
   background: transparent url(/ikigai-project-5-netflix-clone-html-css-CristianDavidCabrera/mockups/01-search.jpg) no-repeat top left; 
   background-size: 100%;
@@ -295,6 +303,6 @@ html.debug {
 }
 html.debug 	body {
   opacity: 0.7;
-}
+} */
 
 /* //tricks to work better------------------------------------------------------------ */
