@@ -305,6 +305,66 @@ p {
   /* make scrollbar transparent */
 }
 
+.carousel-type1:hover .menu-info {
+  height: 183px;
+  width: 195px;
+  margin-right: 11px;
+  margin-top: -183px;
+  margin-left: 11px;
+}
+.carousel-type1:hover .menu-info .info--item1 button {
+  height: 35px;
+  width: 35px;
+  padding-right: 112px;
+  background: transparent;
+  border: none;
+}
+.carousel-type1:hover .menu-info .info--item1 .list-text {
+  height: 19px;
+  width: 145px;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  line-height: 19px;
+}
+.carousel-type1:hover .menu-info .info--item2 .info-match {
+  height: 17px;
+  width: 74px;
+  color: #46d36a;
+  font-family: Helvetica;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  line-height: 17px;
+}
+.carousel-type1:hover .menu-info .info--item2 .info-age {
+  height: 17px;
+  width: 25px;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  line-height: 17px;
+  border: 1px solid rgba(255, 255, 255, 0.41);
+}
+.carousel-type1:hover .menu-info .info--item2 .info-time {
+  height: 17px;
+  width: 49px;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  line-height: 17px;
+}
+.carousel-type1:hover .menu-info .info--item3 {
+  height: 90px;
+  width: 195px;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 14px;
+  line-height: 18px;
+}
+
 .carousel-type2 {
   display: flex;
   flex-direction: row;
