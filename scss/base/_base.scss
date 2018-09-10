@@ -9,34 +9,6 @@ html {
   box-sizing: border-box;
 }
 
-.container {
-  height: 2572px;
-  width: 100%;
-  background-color: $primary-color;
-  position: relative;
-  
-    .age-label {
-        position: absolute;
-        top: 505px;
-        right: 1px;
-        height: 32px;	
-        width: 95px;	
-
-        padding-left: 15px;
-        padding-top: 8px;
-        border-left: 2px solid white;
-        background-color: #252928;
-    
-        color: $font-primary-color;
-        font-family: Helvetica;	
-        font-size: 16px;	
-        font-weight: bold;	
-        letter-spacing: 0.16px;	
-        line-height: 19px;
-         
-    }
-}
-
 //tricks to work better //delete when finished.------------------------------------
 
 
