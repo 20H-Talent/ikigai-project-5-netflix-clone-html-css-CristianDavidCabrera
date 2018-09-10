@@ -305,6 +305,10 @@ p {
   /* make scrollbar transparent */
 }
 
+.carousel-type1:hover {
+  display: flex;
+  flex-direction: row;
+}
 .carousel-type1:hover .menu-info {
   height: 183px;
   width: 195px;
@@ -379,6 +383,68 @@ p {
 .carousel-type2::-webkit-scrollbar {
   background: transparent;
   /* make scrollbar transparent */
+}
+
+.carousel-type2:hover .menu-info-small {
+  height: 183px;
+  width: 210px;
+  margin-right: 11px;
+  margin-top: -120px;
+  margin-left: 11px;
+}
+.carousel-type2:hover .menu-info-small .info-item0 {
+  padding-left: 180px;
+  background: transparent;
+  border: none;
+}
+.carousel-type2:hover .menu-info-small .info-item1 button {
+  height: 16px;
+  width: 16px;
+  background: transparent;
+  border: none;
+}
+.carousel-type2:hover .menu-info-small .info-item1 .list-text {
+  height: 19px;
+  width: 145px;
+  margin-left: 8px;
+  color: #ffffff;
+  font-family: "Helvetica";
+  font-size: 10px;
+  line-height: 11px;
+  letter-spacing: 0.2px;
+}
+.carousel-type2:hover .menu-info-small .info-item2 .info-match {
+  color: #46d36a;
+  font-family: "Helvetica";
+  font-size: 8px;
+  line-height: 17px;
+  letter-spacing: 0.4px;
+  height: 17px;
+  width: 74px;
+}
+.carousel-type2:hover .menu-info-small .info-item2 .info-age {
+  color: #ffffff;
+  font-family: "Helvetica";
+  font-size: 8px;
+  line-height: 17px;
+  letter-spacing: 0.3px;
+  border: 1px solid rgba(255, 255, 255, 0.41);
+}
+.carousel-type2:hover .menu-info-small .info-item2 .info-time {
+  color: #ffffff;
+  font-family: "Helvetica";
+  font-size: 8px;
+  line-height: 15px;
+  letter-spacing: 0.2px;
+}
+.carousel-type2:hover .menu-info-small .info-item3 {
+  width: 180px;
+  margin-left: 8px;
+  color: #ffffff;
+  font-family: "Helvetica";
+  font-size: 10px;
+  line-height: 11px;
+  letter-spacing: 0.2px;
 }
 
 .content-movie {

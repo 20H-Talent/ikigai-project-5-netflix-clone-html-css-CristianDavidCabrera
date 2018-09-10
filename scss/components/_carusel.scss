@@ -13,6 +13,7 @@
   background: transparent; /* make scrollbar transparent */
 }
 .carousel-type1:hover {
+  @include flexy($dir: row);
   .menu-info {
     height: 183px;
     width: 195px;
@@ -79,9 +80,6 @@
         line-height: 18px;
       }
   }
-
-
-
 }
 
 .carousel-type2 {
@@ -93,10 +91,92 @@
   margin-bottom: 25px;
   margin-top: 10px;
   margin-left: 60px;
+
 }
+
 .carousel-type2::-webkit-scrollbar {
   background: transparent; /* make scrollbar transparent */
 }
+
+
+.carousel-type2:hover {
+ 
+
+  .menu-info-small {
+    height: 183px;
+    width: 210px;
+    margin-right: 11px;
+    margin-top: -120px;
+    margin-left: 11px;
+
+    .info-item0{
+      // width: 180px;
+      padding-left: 180px;
+      background: transparent;
+      border: none;
+    }
+    .info-item1{
+      
+      button {
+        height: 16px;
+        width: 16px;
+        // padding-right: 155px;
+        background: transparent;
+        border: none;
+
+      }
+      .list-text {
+        height: 19px;
+        width: 145px;
+        margin-left: 8px;
+        color: #ffffff;
+        font-family: "Helvetica";
+        font-size: 10px;
+        line-height: 11px;
+        letter-spacing: 0.2px;
+      }
+    }
+
+    .info-item2{
+      // width: 180px;
+      .info-match{
+        color: #46d36a;
+        font-family: "Helvetica";
+        font-size: 8px;
+        line-height: 17px;
+        letter-spacing: 0.4px;
+        height: 17px;
+        width: 74px;
+      }
+      .info-age{
+        color: #ffffff;
+        font-family: "Helvetica";
+        font-size: 8px;
+        line-height: 17px;
+        letter-spacing: 0.3px;
+        border: 1px solid rgba(255, 255, 255, 0.41);
+      }
+      .info-time{
+        color: #ffffff;
+        font-family: "Helvetica";
+        font-size: 8px;
+        line-height: 15px;
+        letter-spacing: 0.2px;
+      }
+    }
+    .info-item3{
+      width: 180px;
+      margin-left: 8px;
+      color: #ffffff;
+      font-family: "Helvetica";
+      font-size: 10px;
+      line-height: 11px;
+      letter-spacing: 0.2px; 
+    }
+  }
+
+}
+
 .content-movie {
   height: 810.44px;
   width: 100%;
