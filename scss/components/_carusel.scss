@@ -203,3 +203,11 @@ h2 {
 .bar-v {
   visibility: visible;
 }
+
+// To hide title section and progress bar on search-page
+.section-vs{
+  visibility: hidden;
+}
+.bar-v-search {
+  visibility: hidden;
+}
