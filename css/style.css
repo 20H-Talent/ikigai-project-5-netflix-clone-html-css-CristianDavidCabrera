@@ -8,7 +8,7 @@ h2 {
   line-height: 24px;
 }
 
-footer .links-footer ul li, footer .links-footer ul a, footer .copyright {
+footer .links-footer ul li, footer .links-footer ul a, footer .links-footer:hover ul li, footer .links-footer:hover ul li a, footer .copyright {
   height: 16px;
   width: 84px;
   color: #7F7F7F;
@@ -528,6 +528,23 @@ footer .links-footer ul li {
 }
 footer .links-footer ul a {
   text-decoration: none;
+}
+footer .links-footer:hover {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .links-footer:hover ul li {
+  width: 100%;
+  list-style: none;
+  margin-bottom: 15px;
+  margin-right: 65px;
+  margin-left: 5px;
+  color: #7F7F7F;
+}
+footer .links-footer:hover ul li a span {
+  text-decoration: underline;
 }
 footer .col--1 {
   margin-left: -4px;
