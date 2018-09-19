@@ -34,7 +34,6 @@ footer {
       }
     }
   }
-
   .links-footer:hover {
     margin-top: 10px;
     display: flex;
@@ -50,14 +49,10 @@ footer {
         color: $font-secondary-color;
         @extend %style-footer;
         a {
-          
+          text-decoration: underline;
           @extend %style-footer;
-          span{
-            text-decoration: underline;
-          }
         }
       }
-      
     }
   }
 

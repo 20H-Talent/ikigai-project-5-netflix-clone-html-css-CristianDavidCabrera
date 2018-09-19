@@ -115,6 +115,7 @@ nav ul form:hover input {
   border: none;
   margin-left: 10px;
   background-color: #1D1C1D;
+  outline: none;
 }
 
 .input-text {
@@ -168,7 +169,6 @@ nav:hover a {
   height: 810.44px;
   width: 1440px;
   display: inline-block;
-  -webkit-appearance: none;
 }
 
 .main-content-search {
@@ -178,6 +178,7 @@ nav:hover a {
 .container-search {
   height: 1948px;
   width: 1440px;
+  background-color: #141414;
 }
 
 .container {
@@ -209,6 +210,7 @@ nav:hover a {
   width: 459.12px;
   margin-left: 61px;
   margin-top: -561px;
+  overflow: visible;
 }
 
 h2 {
@@ -254,6 +256,7 @@ p {
   margin-left: 32px;
   background: transparent;
   border: none;
+  outline: none;
 }
 .button--play .play-text {
   color: #fff;
@@ -281,6 +284,7 @@ p {
   margin-left: 40px;
   background: transparent;
   border: none;
+  outline: none;
 }
 .button--list .list-text {
   color: #fff;
@@ -543,7 +547,7 @@ footer .links-footer:hover ul li {
   margin-left: 5px;
   color: #7F7F7F;
 }
-footer .links-footer:hover ul li a span {
+footer .links-footer:hover ul li a {
   text-decoration: underline;
 }
 footer .col--1 {

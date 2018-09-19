@@ -6,7 +6,7 @@
   height: 810.44px;
   width: 1440px;
   display: inline-block;
-  -webkit-appearance: none;
+  // -webkit-appearance: none;
   
 }
 .main-content-search{
@@ -16,8 +16,8 @@
 .container-search {
   height: 1948px;
   width: 1440px;
+  background-color: $primary-color;
 }
-
 
 .container {
   height: 2572px;
@@ -46,12 +46,13 @@
          
     }
 }
-
+// container of title-movie, play and Mylist buttons and synopsis menu and age label.
 .secondary-container {
   height: 74.31px;
   width: 459.12px;
   margin-left: 61px;
   margin-top: -561px;
+  overflow: visible;
 }
 
 h2 {
@@ -105,6 +106,7 @@ p {
       margin-left: 32px;
       background: transparent;
       border: none;
+      outline: none;
       // border-style: none;
     }
     .play-text {
@@ -135,6 +137,7 @@ p {
       margin-left: 40px;
       background: transparent;
       border: none;
+      outline: none;
       // border-style: none;
     }
     .list-text {

@@ -31,15 +31,6 @@
     margin-bottom: $margin-b;
 }
 
-// @mixin get-img($map) {
-//   @each $image, $rout in $map {
-//       &--#{$image}.img-position {
-//           background-color: $color;
-//           @content;
-//       }
-//   } 
-// }
-
 @mixin style-typography (
   $color:null,
   $font:null,
